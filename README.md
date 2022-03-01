@@ -1,6 +1,6 @@
 # Reading List
 
-## (Free Online) Text books
+## Text books
 - Machine Learning
   - [Lectures on Machine Learning](http://www.math.snu.ac.kr/~hichoi/machinelearning/index.html) by Hyeong In Choi, Seoul National University, Department of Mathematics :star::star::star::star::star:
 - Deep Learning
