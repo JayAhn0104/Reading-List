@@ -33,7 +33,7 @@
 ## Websites
 - [Distill](https://distill.pub/)
 
-## Soft Readings
+## Soft Readings (in Korean)
 - [Kakao AI Report](http://aitimes.org/archives/1339)
 - [세상에서 가장 쉬운 베이즈 통계학](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788965022718)
 - [세상에서 가장 쉬운 통계학 입문](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788990994004)
