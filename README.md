@@ -13,13 +13,12 @@
 
 ## Papers
 
-- Predictive Modeling
-  - Model Combination
-    - [Can multi-model combination really enhance the prediction
-      skill of probabilistic ensemble forecasts?](https://rmets.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/qj.210?casa_token=ABUs37ApamoAAAAA:5x4sB2xjMmAx3xg85NuikkvyodCnRIX4ZLd3P253rin_JVgE8t52p_Sox0RZMKC4kLrZCKGiIt4r0kI)
-    - [Model Combination in multiclass classification](https://www.proquest.com/openview/eeb8f8b64391d56327c6eac829c3cb20/1?pq-origsite=gscholar&cbl=18750)
-    - Stacked Generalization
-      - [Issues in Stacked Generalization](https://www.jair.org/index.php/jair/article/view/10228)
+- Model Combination
+  - [Can multi-model combination really enhance the prediction
+    skill of probabilistic ensemble forecasts?](https://rmets.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/qj.210?casa_token=ABUs37ApamoAAAAA:5x4sB2xjMmAx3xg85NuikkvyodCnRIX4ZLd3P253rin_JVgE8t52p_Sox0RZMKC4kLrZCKGiIt4r0kI)
+  - [Model Combination in multiclass classification](https://www.proquest.com/openview/eeb8f8b64391d56327c6eac829c3cb20/1?pq-origsite=gscholar&cbl=18750)
+  - Stacked Generalization
+    - [Issues in Stacked Generalization](https://www.jair.org/index.php/jair/article/view/10228)
 - Recommender System 
   - Survey
     - [Matrix factorization techniques for recommender systems](https://www.inf.unibz.it/~ricci/ISR/papers/ieeecomputer.pdf)
