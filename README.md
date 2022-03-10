@@ -13,20 +13,23 @@
 
 ## Papers
 
+### Recommender System
+- Collaborative Filtering
+  - Matrix Factorization
+    - Survey
+      - [Matrix factorization techniques for recommender systems.](https://www.inf.unibz.it/~ricci/ISR/papers/ieeecomputer.pdf) by Koren, Y., Bell, R., & Volinsky, C. (2009).
+    - Specific methods  
+      - Alternative Least Square (ALS)
+        - [Scalable Collaborative Filtering with Jointly Derived Neighborhood Interpolation Weights](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4470228&casa_token=if_rND5ujU8AAAAA:nHRXPYaN2YMBj4hOheqYfGekrJLpU6wMuvwQP9xDCV9zUQqDhcro31RR9IMQrEcB1D_FH13Ll5Q&tag=1)
+      - Factorization Machines (FM)
+        - [Factorization machines](https://analyticsconsultores.com.mx/wp-content/uploads/2019/03/Factorization-Machines-Steffen-Rendle-Osaka-University-2010.pdf)
+- Content-based recommendation
 - Model Combination
   - [Can multi-model combination really enhance the prediction
     skill of probabilistic ensemble forecasts?](https://rmets.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/qj.210?casa_token=ABUs37ApamoAAAAA:5x4sB2xjMmAx3xg85NuikkvyodCnRIX4ZLd3P253rin_JVgE8t52p_Sox0RZMKC4kLrZCKGiIt4r0kI)
   - [Model Combination in multiclass classification](https://www.proquest.com/openview/eeb8f8b64391d56327c6eac829c3cb20/1?pq-origsite=gscholar&cbl=18750)
   - Stacked Generalization
     - [Issues in Stacked Generalization](https://www.jair.org/index.php/jair/article/view/10228)
-- Recommender System 
-  - Survey
-    - [Matrix factorization techniques for recommender systems](https://www.inf.unibz.it/~ricci/ISR/papers/ieeecomputer.pdf)
-  - Specific topics
-    - Collaborative filtering
-      - Matrix factorization
-        - [Factorization machines](https://analyticsconsultores.com.mx/wp-content/uploads/2019/03/Factorization-Machines-Steffen-Rendle-Osaka-University-2010.pdf)
-    - Content-based
 - Educational Data Mining
   - Knowledge Tracing
 - Hyper-parameter Tuning
