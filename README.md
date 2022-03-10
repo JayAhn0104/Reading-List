@@ -20,7 +20,7 @@
   - Matrix Factorization
     - Survey
       - Koren, Yehuda, Robert Bell, and Chris Volinsky. "Matrix factorization techniques for recommender systems." Computer 42.8 (2009): 30-37. ([paper](https://www.inf.unibz.it/~ricci/ISR/papers/ieeecomputer.pdf)) 
-    - Specific methods  
+    - Methods  
       - Alternative Least Square (ALS)
         - Bell, Robert M., and Yehuda Koren. "Scalable collaborative filtering with jointly derived neighborhood interpolation weights." Seventh IEEE international conference on data mining (ICDM 2007). IEEE, 2007. ([paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4470228&casa_token=if_rND5ujU8AAAAA:nHRXPYaN2YMBj4hOheqYfGekrJLpU6wMuvwQP9xDCV9zUQqDhcro31RR9IMQrEcB1D_FH13Ll5Q&tag=1))
       - Factorization Machines (FM)
