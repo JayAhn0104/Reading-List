@@ -19,12 +19,12 @@
 - Collaborative Filtering
   - Matrix Factorization
     - Survey
-      - [Matrix factorization techniques for recommender systems.](https://www.inf.unibz.it/~ricci/ISR/papers/ieeecomputer.pdf) by Koren, Y., Bell, R., & Volinsky, C. (2009).
+      - Koren, Yehuda, Robert Bell, and Chris Volinsky. "Matrix factorization techniques for recommender systems." Computer 42.8 (2009): 30-37. ([paper](https://www.inf.unibz.it/~ricci/ISR/papers/ieeecomputer.pdf)) 
     - Specific methods  
       - Alternative Least Square (ALS)
-        - [Scalable Collaborative Filtering with Jointly Derived Neighborhood Interpolation Weights](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4470228&casa_token=if_rND5ujU8AAAAA:nHRXPYaN2YMBj4hOheqYfGekrJLpU6wMuvwQP9xDCV9zUQqDhcro31RR9IMQrEcB1D_FH13Ll5Q&tag=1)
+        - Bell, Robert M., and Yehuda Koren. "Scalable collaborative filtering with jointly derived neighborhood interpolation weights." Seventh IEEE international conference on data mining (ICDM 2007). IEEE, 2007. ([paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4470228&casa_token=if_rND5ujU8AAAAA:nHRXPYaN2YMBj4hOheqYfGekrJLpU6wMuvwQP9xDCV9zUQqDhcro31RR9IMQrEcB1D_FH13Ll5Q&tag=1))
       - Factorization Machines (FM)
-        - [Factorization machines](https://analyticsconsultores.com.mx/wp-content/uploads/2019/03/Factorization-Machines-Steffen-Rendle-Osaka-University-2010.pdf)
+        - Rendle, Steffen. "Factorization machines." 2010 IEEE International conference on data mining. IEEE, 2010. ([paper](https://analyticsconsultores.com.mx/wp-content/uploads/2019/03/Factorization-Machines-Steffen-Rendle-Osaka-University-2010.pdf))
 - Content-based recommendation
 
 ### Educational Data Mining
