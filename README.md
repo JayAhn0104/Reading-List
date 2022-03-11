@@ -33,6 +33,8 @@
         - Gillis, N. (2017). [Introduction to nonnegative matrix factorization](https://arxiv.org/pdf/1703.00663.pdf). arXiv preprint arXiv:1703.00663.
       - Probabilistic Matrix Factorization
         - Mnih, A., & Salakhutdinov, R. R. (2007). [Probabilistic matrix factorization](https://proceedings.neurips.cc/paper/2007/file/d7322ed717dedf1eb4e6e52a37ea7bcd-Paper.pdf). Advances in neural information processing systems, 20.
+      - Temporal Dynamics
+        - Koren, Y. (2009, June). [Collaborative filtering with temporal dynamics](https://dl.acm.org/doi/pdf/10.1145/1557019.1557072?casa_token=Q3pNHhM5MQQAAAAA:p2_4w6ancNgFR6IORMlmm-KTZK7mQBCB8jrOlHT9-DKshGO0CXylibF5d9gZX3XLTToUKoZ2ibWP). In Proceedings of the 15th ACM SIGKDD international conference on Knowledge discovery and data mining (pp. 447-456).
       - Neural Collaborative Filtering
         - He, X., Liao, L., Zhang, H., Nie, L., Hu, X., & Chua, T. S. (2017, April). [Neural collaborative filtering](https://dl.acm.org/doi/pdf/10.1145/3038912.3052569?casa_token=kcPSEjY_YJkAAAAA:7hlKuZGwuuoMYwQUDsU0owoB_qbPYwJ7nRCo5I7NJXk0Vgfvr5j-4udGQELZYsNYiaWxFu_owwmy). In Proceedings of the 26th international conference on world wide web (pp. 173-182).
       - Factorization Machines (FM)
@@ -42,7 +44,61 @@
 
 
 ### Educational Data Mining
+- Survey
+  - Baker, R. S., & Inventado, P. S. (2014). [Educational data mining and learning analytics](https://edtechbooks.org/lidtfoundations/educational_data_mining_and_learning_analytics/simple). In Learning analytics (pp. 61-75). Springer, New York, NY.
 - Knowledge Tracing (answer correctness prediction)
+  - Survey
+    - Pelánek, R. (2017). [Bayesian knowledge tracing, logistic models, and beyond: an overview of learner modeling techniques](https://www.fi.muni.cz/~xpelanek/publications/umuai-overview.pdf). User Modeling and User-Adapted Interaction, 27(3), 313-350.
+    - Gervet, T., Koedinger, K., Schneider, J., & Mitchell, T. (2020). [When is deep learning the best approach to knowledge tracing?](https://jedm.educationaldatamining.org/index.php/JEDM/article/download/451/123). Journal of Educational Data Mining, 12(3), 31-54.
+  - Bayesian Knowledge Tracing (BKT)
+    - Lecture Notes
+      - CS229: [Hiden Markov Models Fundamentals](https://www.google.co.kr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjzlICo9bz2AhUJZ94KHXlXDjIQFnoECAgQAQ&url=https%3A%2F%2Fcs229.stanford.edu%2Fsection%2Fcs229-hmm.pdf&usg=AOvVaw3EuZ3G7Dcr707GKPatmxG_) by Daniel Ramage
+      - [Hiden Markov Models](http://www.stats.ox.ac.uk/~caron/teaching/sb1b/lecturehmm.pdf) by Fran ̧cois Caron
+    - Methods
+      - Yudelson, M. V., Koedinger, K. R., & Gordon, G. J. (2013, July). [Individualized bayesian knowledge tracing models](http://www.cs.cmu.edu/~./ggordon/yudelson-koedinger-gordon-individualized-bayesian-knowledge-tracing.pdf). In International conference on artificial intelligence in education (pp. 171-180). Springer, Berlin, Heidelberg.
+    - Property
+      - van De Sande, B. (2013). [Properties of the Bayesian Knowledge Tracing Model](https://files.eric.ed.gov/fulltext/EJ1115329.pdf). Journal of Educational Data Mining, 5(2), 1-10.
+    - Implementation
+      - [pyBKT](https://github.com/CAHLR/pyBKT)
+        - Badrinath, A., Wang, F., & Pardos, Z. (2021). [pyBKT: an accessible python library of Bayesian knowledge tracing models](https://arxiv.org/pdf/2105.00385.pdf). arXiv preprint arXiv:2105.00385.
+  - Deep Knowledge Tracing (DKT)
+    - Methods
+      - DKT
+        - Piech, C., Bassen, J., Huang, J., Ganguli, S., Sahami, M., Guibas, L. J., & Sohl-Dickstein, J. (2015). [Deep knowledge tracing](https://proceedings.neurips.cc/paper/2015/file/bac9162b47c56fc8a4d2a519803d51b3-Paper.pdf). Advances in neural information processing systems, 28.
+      - DKT+
+        - Yeung, C. K., & Yeung, D. Y. (2018, June). [Addressing two problems in deep knowledge tracing via prediction-consistent regularization](https://dl.acm.org/doi/pdf/10.1145/3231644.3231647?casa_token=ZWcK0jwxnI4AAAAA:8N11uHSCa_QZ5KUuTuZP0vcc8k1hKF818roWwQ5doJIQLz1hXrVTZCedmuQnHRQtKgFCcet-Zy38). In Proceedings of the Fifth Annual ACM Conference on Learning at Scale (pp. 1-10).
+      - PEBG
+        - Liu, Y., Yang, Y., Chen, X., Shen, J., Zhang, H., & Yu, Y. (2020). [Improving knowledge tracing via pre-training question embeddings](https://arxiv.org/pdf/2012.05031.pdf). arXiv preprint arXiv:2012.05031.
+      - DKVMN
+        - Zhang, J., Shi, X., King, I., & Yeung, D. Y. (2017, April). [Dynamic key-value memory networks for knowledge tracing](https://dl.acm.org/doi/pdf/10.1145/3038912.3052580?casa_token=50ADFLMwmF0AAAAA:NpLsUcDAg9rIshSzuv4y8bc7EeVIMxre_0xg90BIubCYpgfbde2METq9LkETSBnTDnSI6K2mrYrx). In Proceedings of the 26th international conference on World Wide Web (pp. 765-774).
+      - Deep-IRT
+        - Yeung, C. K. (2019). [Deep-IRT: Make deep learning based knowledge tracing explainable using item response theory](https://arxiv.org/pdf/1904.11738). arXiv preprint arXiv:1904.11738.
+          Chicago
+      - SAKT
+        - Pandey, S., & Karypis, G. (2019). [A self-attentive model for knowledge tracing](https://arxiv.org/pdf/1907.06837). arXiv preprint arXiv:1907.06837.
+    - Review
+      - Khajah, M., Lindsey, R. V., & Mozer, M. C. (2016). [How deep is knowledge tracing?](https://arxiv.org/pdf/1604.02416.pdf). arXiv preprint arXiv:1604.02416.
+      - Xiong, X., Zhao, S., Van Inwegen, E. G., & Beck, J. E. (2016). [Going deeper with deep knowledge tracing](https://files.eric.ed.gov/fulltext/ED592679.pdf). International Educational Data Mining Society.
+  - Logistic Knowledge Tracing (LKT)
+    - Methods
+      - LFA (Learning Factor Analysis)
+        - Cen, H., Koedinger, K., & Junker, B. (2006, June). [Learning factors analysis–a general method for cognitive model evaluation and improvement](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.297.2141&rep=rep1&type=pdf). In International conference on intelligent tutoring systems (pp. 164-175). Springer, Berlin, Heidelberg.
+      - PFA (Performance Factor Analysis)
+        - Pavlik Jr, P. I., Cen, H., & Koedinger, K. R. (2009). [Performance Factors Analysis--A New Alternative to Knowledge Tracing](https://files.eric.ed.gov/fulltext/ED506305.pdf). Online Submission.
+      - R-PFA
+        - Galyardt, A., & Goldin, I. (2015). [Move Your Lamp Post: Recent Data Reflects Learner Knowledge Better than Older Data](https://files.eric.ed.gov/fulltext/EJ1115280.pdf). Journal of Educational Data Mining, 7(2), 83-108.
+      - LKT (Logistic Knowledge Tracing)
+        - Pavlik, P. I., Eglington, L. G., & Harrell-Williams, L. M. (2021). [Logistic Knowledge Tracing: A Constrained Framework for Learner Modeling](https://ieeexplore.ieee.org/iel7/4620076/4620077/09616435.pdf?casa_token=AlBw4sHxzGEAAAAA:tpH4z1jSQAHKueU7_4_Ux5PefjX7OgyUygRODNWKBDP4VceHs8wnAoxOzsvKM0imcOaN66ij). IEEE Transactions on Learning Technologies, 14(5), 624-639.
+      - KTM (Knowledge Tracing Machine)
+        - Vie, J. J., & Kashima, H. (2019, July). [Knowledge tracing machines: Factorization machines for knowledge tracing](https://ojs.aaai.org/index.php/AAAI/article/download/3853/3731). In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 33, No. 01, pp. 750-757).
+      - DAS3H
+        - Choffin, B., Popineau, F., Bourda, Y., & Vie, J. J. (2019). [DAS3H: modeling student learning and forgetting for optimally scheduling distributed practice of skills](https://arxiv.org/pdf/1905.06873.pdf?ref=https://githubhelp.com). arXiv preprint arXiv:1905.06873.
+    - Review
+      - Gong, Y., Beck, J. E., & Heffernan, N. T. (2011). [How to construct more accurate student models: Comparing and optimizing knowledge tracing and performance factor analysis](http://web.cs.wpi.edu/~nth/pubs_and_grants/papers/2010/Journals/Gong%20How%20to%20Construct%20More.pdf). International Journal of Artificial Intelligence in Education, 21(1-2), 27-46.
+      - Rosé, C. P., McLaughlin, E. A., Liu, R., & Koedinger, K. R. (2019). [Explanatory learner models: Why machine learning (alone) is not the answer](https://bera-journals.onlinelibrary.wiley.com/doi/pdf/10.1111/bjet.12858). British Journal of Educational Technology, 50(6), 2943-2958.
+      - Wu, M., Davis, R. L., Domingue, B. W., Piech, C., & Goodman, N. (2020). [Variational item response theory: Fast, accurate, and expressive](https://arxiv.org/pdf/2002.00276). arXiv preprint arXiv:2002.00276.
+
+
 
 
 ### Outlier Detection
@@ -54,7 +110,7 @@
       - Breunig, M. M., Kriegel, H. P., Ng, R. T., & Sander, J. (2000, May). [LOF: identifying density-based local outliers](https://dl.acm.org/doi/pdf/10.1145/342009.335388?casa_token=qB9shs2wYrEAAAAA:SAupZ3128dEneCw2U_na34GRnCalsVfx4PdiqlaQBtj4Aw59VYVuY55v1-e3P8b4gFssW29kg4ik). In Proceedings of the 2000 ACM SIGMOD international conference on Management of data (pp. 93-104).
     - Isolation Forest
       - Liu, F. T., Ting, K. M., & Zhou, Z. H. (2008, December). [Isolation forest](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4781136&casa_token=q6603pKvIdcAAAAA:I3-JTq4vuu1-wWMo-k6aFUgoDjQZUvdBstpjpBF-ODjulIXNXuaxh0nDs9CAPM4rq0B08u72). In 2008 eighth ieee international conference on data mining (pp. 413-422). IEEE.
-  - Outlier Score
+  - Use of Outlier Scores
     - Gao, J., & Tan, P. N. (2006, December). [Converting output scores from outlier detection algorithms into probability estimates](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4053049&casa_token=i__CmdPhRCUAAAAA:cd-_kQlL138goSE0FHtDE0N_Bs-K6zKsMbhX2qGchgu6Ci4pTtRy_m_ZEs2iqKMRM4elg8Cu&tag=1). In Sixth International Conference on Data Mining (ICDM'06) (pp. 212-221). IEEE.
     - Schubert, E., Wojdanowski, R., Zimek, A., & Kriegel, H. P. (2012, April). [On evaluation of outlier rankings and outlier scores](https://epubs.siam.org/doi/pdf/10.1137/1.9781611972825.90). In Proceedings of the 2012 SIAM International Conference on Data Mining (pp. 1047-1058). Society for Industrial and Applied Mathematics.
     - Kriegel, H. P., Kroger, P., Schubert, E., & Zimek, A. (2011, April). [Interpreting and unifying outlier scores](https://epubs.siam.org/doi/pdf/10.1137/1.9781611972818.2). In Proceedings of the 2011 SIAM International Conference on Data Mining (pp. 13-24). Society for Industrial and Applied Mathematics.
