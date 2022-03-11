@@ -49,8 +49,15 @@
 - Survey 
   - Chandola, V., Banerjee, A., & Kumar, V. (2009). [Anomaly detection: A survey](https://conservancy.umn.edu/bitstream/handle/11299/215731/07-017.pdf?sequence=1). ACM computing surveys (CSUR), 41(3), 1-58.
 - Unsupervised Learning Methods
-  - LOF
-    - Breunig, M. M., Kriegel, H. P., Ng, R. T., & Sander, J. (2000, May). [LOF: identifying density-based local outliers](https://dl.acm.org/doi/pdf/10.1145/342009.335388?casa_token=qB9shs2wYrEAAAAA:SAupZ3128dEneCw2U_na34GRnCalsVfx4PdiqlaQBtj4Aw59VYVuY55v1-e3P8b4gFssW29kg4ik). In Proceedings of the 2000 ACM SIGMOD international conference on Management of data (pp. 93-104).
+  - Methods
+    - LOF
+      - Breunig, M. M., Kriegel, H. P., Ng, R. T., & Sander, J. (2000, May). [LOF: identifying density-based local outliers](https://dl.acm.org/doi/pdf/10.1145/342009.335388?casa_token=qB9shs2wYrEAAAAA:SAupZ3128dEneCw2U_na34GRnCalsVfx4PdiqlaQBtj4Aw59VYVuY55v1-e3P8b4gFssW29kg4ik). In Proceedings of the 2000 ACM SIGMOD international conference on Management of data (pp. 93-104).
+    - Isolation Forest
+      - Liu, F. T., Ting, K. M., & Zhou, Z. H. (2008, December). [Isolation forest](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4781136&casa_token=q6603pKvIdcAAAAA:I3-JTq4vuu1-wWMo-k6aFUgoDjQZUvdBstpjpBF-ODjulIXNXuaxh0nDs9CAPM4rq0B08u72). In 2008 eighth ieee international conference on data mining (pp. 413-422). IEEE.
+  - Outlier Score
+    - Gao, J., & Tan, P. N. (2006, December). [Converting output scores from outlier detection algorithms into probability estimates](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4053049&casa_token=i__CmdPhRCUAAAAA:cd-_kQlL138goSE0FHtDE0N_Bs-K6zKsMbhX2qGchgu6Ci4pTtRy_m_ZEs2iqKMRM4elg8Cu&tag=1). In Sixth International Conference on Data Mining (ICDM'06) (pp. 212-221). IEEE.
+    - Schubert, E., Wojdanowski, R., Zimek, A., & Kriegel, H. P. (2012, April). [On evaluation of outlier rankings and outlier scores](https://epubs.siam.org/doi/pdf/10.1137/1.9781611972825.90). In Proceedings of the 2012 SIAM International Conference on Data Mining (pp. 1047-1058). Society for Industrial and Applied Mathematics.
+    - Kriegel, H. P., Kroger, P., Schubert, E., & Zimek, A. (2011, April). [Interpreting and unifying outlier scores](https://epubs.siam.org/doi/pdf/10.1137/1.9781611972818.2). In Proceedings of the 2011 SIAM International Conference on Data Mining (pp. 13-24). Society for Industrial and Applied Mathematics.
   - For High-Dimensional Data
     - Survey
       - Zimek, A., Schubert, E., & Kriegel, H. P. (2012). [A survey on unsupervised outlier detection in high‐dimensional numerical data](https://onlinelibrary.wiley.com/doi/pdf/10.1002/sam.11161?casa_token=icDu1psN5dkAAAAA:9mJA1-D1kjaQYLiG_ClD9V10Ls6TzOC_Szz8jsjV1pvDQeoLnHtcc6IYrHijmUhJBHsMwFPaqdnEMoY). Statistical Analysis and Data Mining: The ASA Data Science Journal, 5(5), 363-387.
@@ -60,7 +67,6 @@
     - Concentration Effect (Motivation for HD Outlier detection)
       - Beyer, K., Goldstein, J., Ramakrishnan, R., & Shaft, U. (1999, January). [When is “nearest neighbor” meaningful?](https://minds.wisconsin.edu/bitstream/handle/1793/60174/TR1377.pdf?sequence=1). In International conference on database theory (pp. 217-235). Springer, Berlin, Heidelberg.
       - Durrant, R. J., & Kabán, A. (2009). [When is ‘nearest neighbour’meaningful: A converse theorem and implications](https://www.sciencedirect.com/science/article/pii/S0885064X09000260). Journal of Complexity, 25(4), 385-397.
-    - Methods
 
 ### etc
 - Model Combination
