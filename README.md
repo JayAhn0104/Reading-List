@@ -41,6 +41,10 @@
         - Rendle, S. (2010, December). [Factorization machines](https://analyticsconsultores.com.mx/wp-content/uploads/2019/03/Factorization-Machines-Steffen-Rendle-Osaka-University-2010.pdf). In 2010 IEEE International conference on data mining (pp. 995-1000). IEEE. 
       - Deep Factorization Machines (DeepFM)
         - Guo, H., Tang, R., Ye, Y., Li, Z., & He, X. (2017). [DeepFM: a factorization-machine based neural network for CTR prediction](https://arxiv.org/pdf/1703.04247.pdf，这个是华为用在应用商店做排序的%E3%80%82这两个算法既可以在广告中做ctr预估，也可以在推荐系统中做排序%E3%80%82). arXiv preprint arXiv:1703.04247.
+- Evaluation
+  - Ge, M., Delgado-Battenfeld, C., & Jannach, D. (2010, September). [Beyond accuracy: evaluating recommender systems by coverage and serendipity](https://dl.acm.org/doi/pdf/10.1145/1864708.1864761?casa_token=gDQ4yOFm52AAAAAA:sXTcHzaf-xaz6zyVQM96wcWVHL2YT-MmlJ3vQlI9UCBExi_XHDb-7EObeGRx8gd0RY8SM5mYZ6nQ). In Proceedings of the fourth ACM conference on Recommender systems (pp. 257-260).
+  - Kotkov, D., Wang, S., & Veijalainen, J. (2016). [A survey of serendipity in recommender systems](https://www.sciencedirect.com/science/article/pii/S0950705116302763?casa_token=wDQDFQVGSWoAAAAA:nMVB8o_-kbwDS1IVUjnA9312bmsMYogibSf8eFoyjVkn6kzDRKqgeSihRxAUZNZxYeRvL3Ee). Knowledge-Based Systems, 111, 180-192.
+
 
 
 ### Educational Data Mining
