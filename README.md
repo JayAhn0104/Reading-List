@@ -5,7 +5,8 @@
 - [Lectures on Machine Learning](http://www.math.snu.ac.kr/~hichoi/machinelearning/index.html) by Hyeong In Choi, Seoul National University, Department of Mathematics
 
 ### Deep Learning
-- [Dive into Deep Learning](https://d2l.ai/)
+- [Dive into Deep Learning](https://d2l.ai/) by Zhang, Aston, et al.
+- [Deep learning](https://www.deeplearningbook.org/front_matter.pdf) by Goodfellow, Ian, Yoshua Bengio, and Aaron Courville
 
 ### Recommender System
 - [Recommender-Systems: The Textbook](https://d1wqtxts1xzle7.cloudfront.net/63186644/2016_Book_RecommenderSystems20200503-102501-wsddcn-with-cover-page-v2.pdf?Expires=1646156544&Signature=CcG3hMtXlo5DVbWh6byEceCXyi0E0cuUlp2XI5q4q1BoVW8DmUY75NnNvf1WVfQAO7wS8YhiGeF2VW5hRiXLPNd2oUFv8ygBTdU9IOxcGjvwgvLzGolGNtMjzadXeYtdWnQI9eEZvMFpcv3tTq4aMuMhEzMJtBLwe3GUCf-JP1yIreto2l3bO5KniB0EKkHi4CAgOgTRw7Rdh1YF3sWiD~ymU5-rKx42wH1HvLq7vg9jtL73s9sClk-L1aFXb5ktMmZmFUX3awRgaMMT7XEK6L2mbpUMnEDcbpWPGq7dYBvuj0xldRp-BGIfthjengR1ENfFPDbgXxckIDmIznitEg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) by Charu C. Aggarwal
@@ -16,16 +17,28 @@
 ## Papers
 
 ### Recommender System
+- Survey
+  - Bobadilla, J., Ortega, F., Hernando, A., & Gutiérrez, A. (2013). [Recommender systems survey]((https://reader.elsevier.com/reader/sd/pii/S0950705113001044?token=553447D6D7B8A4E3226134561D3B99E932D26D1157D2978A108E8A3DAD9C9827EE90A04018A39894E7D04D8B0B777252&originRegion=us-east-1&originCreation=20220311004943)). Knowledge-based systems, 46, 109-132.
 - Collaborative Filtering
   - Matrix Factorization
     - Survey
-      - Koren, Y., Bell, R., & Volinsky, C. (2009). Matrix factorization techniques for recommender systems. Computer, 42(8), 30-37. ([paper](https://www.inf.unibz.it/~ricci/ISR/papers/ieeecomputer.pdf)) 
+      - Koren, Y., Bell, R., & Volinsky, C. (2009). [Matrix factorization techniques for recommender systems](https://www.inf.unibz.it/~ricci/ISR/papers/ieeecomputer.pdf). Computer, 42(8), 30-37.
+    - Lecture Note
+      - CS168: The Modern Algorithmic Toolbox Lecture #9: [The Singular Value Decomposition (SVD) and Low-Rank Matrix Approximations](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=9FDFC0123B6694B3FF30191E1304C55F?doi=10.1.1.725.8741&rep=rep1&type=pdf)
+      - CME 323: Distributed Algorithms and Optimization, Spring 2015 [Matrix Completion via Alternating Least Square(ALS)](http://stanford.edu/~rezab/classes/cme323/S15/notes/lec14.pdf)
     - Methods  
       - Alternative Least Square (ALS)
-        - Bell, R. M., & Koren, Y. (2007, October). Scalable collaborative filtering with jointly derived neighborhood interpolation weights. In Seventh IEEE international conference on data mining (ICDM 2007) (pp. 43-52). IEEE. ([paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4470228&casa_token=if_rND5ujU8AAAAA:nHRXPYaN2YMBj4hOheqYfGekrJLpU6wMuvwQP9xDCV9zUQqDhcro31RR9IMQrEcB1D_FH13Ll5Q&tag=1))
+        - Bell, R. M., & Koren, Y. (2007, October). [Scalable collaborative filtering with jointly derived neighborhood interpolation weights](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4470228&casa_token=if_rND5ujU8AAAAA:nHRXPYaN2YMBj4hOheqYfGekrJLpU6wMuvwQP9xDCV9zUQqDhcro31RR9IMQrEcB1D_FH13Ll5Q&tag=1). In Seventh IEEE international conference on data mining (ICDM 2007) (pp. 43-52). IEEE.
+      - Non-negative Matrix Factorization
+        - Gillis, N. (2017). [Introduction to nonnegative matrix factorization](https://arxiv.org/pdf/1703.00663.pdf). arXiv preprint arXiv:1703.00663.
+      - Probabilistic Matrix Factorization
+        - Mnih, A., & Salakhutdinov, R. R. (2007). [Probabilistic matrix factorization](https://proceedings.neurips.cc/paper/2007/file/d7322ed717dedf1eb4e6e52a37ea7bcd-Paper.pdf). Advances in neural information processing systems, 20.
+      - Neural Collaborative Filtering
+        - He, X., Liao, L., Zhang, H., Nie, L., Hu, X., & Chua, T. S. (2017, April). [Neural collaborative filtering](https://dl.acm.org/doi/pdf/10.1145/3038912.3052569?casa_token=kcPSEjY_YJkAAAAA:7hlKuZGwuuoMYwQUDsU0owoB_qbPYwJ7nRCo5I7NJXk0Vgfvr5j-4udGQELZYsNYiaWxFu_owwmy). In Proceedings of the 26th international conference on world wide web (pp. 173-182).
       - Factorization Machines (FM)
-        - Rendle, S. (2010, December). Factorization machines. In 2010 IEEE International conference on data mining (pp. 995-1000). IEEE. ([paper](https://analyticsconsultores.com.mx/wp-content/uploads/2019/03/Factorization-Machines-Steffen-Rendle-Osaka-University-2010.pdf))
-- Content-based recommendation
+        - Rendle, S. (2010, December). [Factorization machines](https://analyticsconsultores.com.mx/wp-content/uploads/2019/03/Factorization-Machines-Steffen-Rendle-Osaka-University-2010.pdf). In 2010 IEEE International conference on data mining (pp. 995-1000). IEEE. 
+        - Guo, H., Tang, R., Ye, Y., Li, Z., & He, X. (2017). [DeepFM: a factorization-machine based neural network for CTR prediction](https://arxiv.org/pdf/1703.04247.pdf，这个是华为用在应用商店做排序的%E3%80%82这两个算法既可以在广告中做ctr预估，也可以在推荐系统中做排序%E3%80%82). arXiv preprint arXiv:1703.04247.
+
 
 ### Educational Data Mining
 - Knowledge Tracing (answer correctness prediction)
