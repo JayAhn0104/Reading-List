@@ -18,7 +18,7 @@
 
 ### Recommender System
 - Survey
-  - Bobadilla, J., Ortega, F., Hernando, A., & Gutiérrez, A. (2013). [Recommender systems survey]((https://reader.elsevier.com/reader/sd/pii/S0950705113001044?token=553447D6D7B8A4E3226134561D3B99E932D26D1157D2978A108E8A3DAD9C9827EE90A04018A39894E7D04D8B0B777252&originRegion=us-east-1&originCreation=20220311004943)). Knowledge-based systems, 46, 109-132.
+  - Bobadilla, J., Ortega, F., Hernando, A., & Gutiérrez, A. (2013). [Recommender systems survey](https://reader.elsevier.com/reader/sd/pii/S0950705113001044?token=553447D6D7B8A4E3226134561D3B99E932D26D1157D2978A108E8A3DAD9C9827EE90A04018A39894E7D04D8B0B777252&originRegion=us-east-1&originCreation=20220311004943)). Knowledge-based systems, 46, 109-132.
 - Collaborative Filtering
   - Matrix Factorization
     - Survey
@@ -56,7 +56,7 @@
       - [Hiden Markov Models](http://www.stats.ox.ac.uk/~caron/teaching/sb1b/lecturehmm.pdf) by Fran ̧cois Caron
     - Methods
       - Yudelson, M. V., Koedinger, K. R., & Gordon, G. J. (2013, July). [Individualized bayesian knowledge tracing models](http://www.cs.cmu.edu/~./ggordon/yudelson-koedinger-gordon-individualized-bayesian-knowledge-tracing.pdf). In International conference on artificial intelligence in education (pp. 171-180). Springer, Berlin, Heidelberg.
-    - Property
+    - Review
       - van De Sande, B. (2013). [Properties of the Bayesian Knowledge Tracing Model](https://files.eric.ed.gov/fulltext/EJ1115329.pdf). Journal of Educational Data Mining, 5(2), 1-10.
     - Implementation
       - [pyBKT](https://github.com/CAHLR/pyBKT)
@@ -97,10 +97,17 @@
       - Gong, Y., Beck, J. E., & Heffernan, N. T. (2011). [How to construct more accurate student models: Comparing and optimizing knowledge tracing and performance factor analysis](http://web.cs.wpi.edu/~nth/pubs_and_grants/papers/2010/Journals/Gong%20How%20to%20Construct%20More.pdf). International Journal of Artificial Intelligence in Education, 21(1-2), 27-46.
       - Rosé, C. P., McLaughlin, E. A., Liu, R., & Koedinger, K. R. (2019). [Explanatory learner models: Why machine learning (alone) is not the answer](https://bera-journals.onlinelibrary.wiley.com/doi/pdf/10.1111/bjet.12858). British Journal of Educational Technology, 50(6), 2943-2958.
       - Wu, M., Davis, R. L., Domingue, B. W., Piech, C., & Goodman, N. (2020). [Variational item response theory: Fast, accurate, and expressive](https://arxiv.org/pdf/2002.00276). arXiv preprint arXiv:2002.00276.
-
-
-
-
+- Exercise Recommendation
+  - Survey
+    - Nabizadeh, A. H., Leal, J. P., Rafsanjani, H. N., & Shah, R. R. (2020). [Learning path personalization and recommendation methods: A survey of the state-of-the-art](https://www.sciencedirect.com/science/article/pii/S0957417420304206?casa_token=MHxZ55SJbP8AAAAA:OqJrfK5Yv5l_JduGW0t7pT1P5-7TQJ0imZDp2V6li7t4Acct9_ZfitWau5DR4f4-T32M9FBl). Expert Systems with Applications, 159, 113596.
+  - Methods
+    - Wu, Z., Li, M., Tang, Y., & Liang, Q. (2020). [Exercise recommendation based on knowledge concept prediction](https://www.sciencedirect.com/science/article/pii/S0950705120306109?casa_token=_YiStacQMU8AAAAA:FLXhwRo-mtQSXJoKUbrf1od9YjRtDCNRyNFxKRjXqWnm5W1_zGyJFvQCfuKk6kfbZsXmEYUH). Knowledge-Based Systems, 210, 106481.
+    - Ai, F., Chen, Y., Guo, Y., Zhao, Y., Wang, Z., Fu, G., & Wang, G. (2019). [Concept-Aware Deep Knowledge Tracing and Exercise Recommendation in an Online Learning System](https://files.eric.ed.gov/fulltext/ED599194.pdf). International Educational Data Mining Society.
+    - Cai, D., Zhang, Y., & Dai, B. (2019, December). [Learning path recommendation based on knowledge tracing model and reinforcement learning](https://ieeexplore.ieee.org/iel7/9048180/9064028/09064104.pdf?casa_token=Qf-IVVE9MS0AAAAA:gHTKNucQ1w7BVHp2Py-tVdZwl5gW2iij1JegLMT0AdC5ydfkZRFxVqTOraPM4iemGAusIFvs). In 2019 IEEE 5th International Conference on Computer and Communications (ICCC) (pp. 1881-1885). IEEE.
+  - Lecture Notes
+    - Combinatorial Optimization
+      - [Simulated Annealing Overview](https://www.google.co.kr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjfqffE_7z2AhVSxYsBHb9RA3wQFnoECAYQAQ&url=https%3A%2F%2Fwww.lancaster.ac.uk%2Fpg%2Fvarty%2FRTOne.pdf&usg=AOvVaw3SXjelVkiTloyuj4INH5xb) by Zak Varty
+      
 ### Outlier Detection
 - Survey 
   - Chandola, V., Banerjee, A., & Kumar, V. (2009). [Anomaly detection: A survey](https://conservancy.umn.edu/bitstream/handle/11299/215731/07-017.pdf?sequence=1). ACM computing surveys (CSUR), 41(3), 1-58.
@@ -125,13 +132,17 @@
       - Durrant, R. J., & Kabán, A. (2009). [When is ‘nearest neighbour’meaningful: A converse theorem and implications](https://www.sciencedirect.com/science/article/pii/S0885064X09000260). Journal of Complexity, 25(4), 385-397.
 
 ### etc
-- Model Combination
-  - [Can multi-model combination really enhance the prediction
-    skill of probabilistic ensemble forecasts?](https://rmets.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/qj.210?casa_token=ABUs37ApamoAAAAA:5x4sB2xjMmAx3xg85NuikkvyodCnRIX4ZLd3P253rin_JVgE8t52p_Sox0RZMKC4kLrZCKGiIt4r0kI)
+#### Model Combination
+- Motivation
+  - [Can multi-model combination really enhance the prediction skill of probabilistic ensemble forecasts?](https://rmets.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/qj.210?casa_token=ABUs37ApamoAAAAA:5x4sB2xjMmAx3xg85NuikkvyodCnRIX4ZLd3P253rin_JVgE8t52p_Sox0RZMKC4kLrZCKGiIt4r0kI)
+- Review
   - [Model Combination in multiclass classification](https://www.proquest.com/openview/eeb8f8b64391d56327c6eac829c3cb20/1?pq-origsite=gscholar&cbl=18750)
+- Methods
   - Stacked Generalization
     - [Issues in Stacked Generalization](https://www.jair.org/index.php/jair/article/view/10228)
-- Hyper-parameter Tuning
+#### Hyper-parameter Tuning
+- Survey
+  - Yu, T., & Zhu, H. (2020). [Hyper-parameter optimization: A review of algorithms and applications](https://ieeexplore.ieee.org/iel7/9048180/9064028/09064104.pdf?casa_token=Qf-IVVE9MS0AAAAA:gHTKNucQ1w7BVHp2Py-tVdZwl5gW2iij1JegLMT0AdC5ydfkZRFxVqTOraPM4iemGAusIFvs). arXiv preprint arXiv:2003.05689.
 
 ## Websites
 - [Distill](https://distill.pub/)
