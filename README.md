@@ -136,6 +136,9 @@
       - Durrant, R. J., & Kabán, A. (2009). [When is ‘nearest neighbour’meaningful: A converse theorem and implications](https://www.sciencedirect.com/science/article/pii/S0885064X09000260). Journal of Complexity, 25(4), 385-397.
 
 ### etc
+#### Hyper-parameter Tuning
+- Survey
+  - Yu, T., & Zhu, H. (2020). [Hyper-parameter optimization: A review of algorithms and applications](https://ieeexplore.ieee.org/iel7/9048180/9064028/09064104.pdf?casa_token=Qf-IVVE9MS0AAAAA:gHTKNucQ1w7BVHp2Py-tVdZwl5gW2iij1JegLMT0AdC5ydfkZRFxVqTOraPM4iemGAusIFvs). arXiv preprint arXiv:2003.05689.
 #### Model Combination
 - Motivation
   - [Can multi-model combination really enhance the prediction skill of probabilistic ensemble forecasts?](https://rmets.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/qj.210?casa_token=ABUs37ApamoAAAAA:5x4sB2xjMmAx3xg85NuikkvyodCnRIX4ZLd3P253rin_JVgE8t52p_Sox0RZMKC4kLrZCKGiIt4r0kI)
@@ -144,9 +147,10 @@
 - Methods
   - Stacked Generalization
     - [Issues in Stacked Generalization](https://www.jair.org/index.php/jair/article/view/10228)
-#### Hyper-parameter Tuning
-- Survey
-  - Yu, T., & Zhu, H. (2020). [Hyper-parameter optimization: A review of algorithms and applications](https://ieeexplore.ieee.org/iel7/9048180/9064028/09064104.pdf?casa_token=Qf-IVVE9MS0AAAAA:gHTKNucQ1w7BVHp2Py-tVdZwl5gW2iij1JegLMT0AdC5ydfkZRFxVqTOraPM4iemGAusIFvs). arXiv preprint arXiv:2003.05689.
+#### Ordinal Classification
+- Methods
+  - Frank, E., & Hall, M. (2001, September). [A simple approach to ordinal classification](https://link.springer.com/content/pdf/10.1007/3-540-44795-4_13.pdf). In European conference on machine learning (pp. 145-156). Springer, Berlin, Heidelberg.
+
 
 ## Websites
 - [Distill](https://distill.pub/)
